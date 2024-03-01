@@ -1,0 +1,14 @@
+[2024-03-01T03:15:52.068+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_analyzer.fetch_irctc_data manual__2024-03-01T03:15:48.734477+00:00 [queued]>
+[2024-03-01T03:15:52.083+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_analyzer.fetch_irctc_data manual__2024-03-01T03:15:48.734477+00:00 [queued]>
+[2024-03-01T03:15:52.084+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-01T03:15:52.115+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): fetch_irctc_data> on 2024-03-01 03:15:48.734477+00:00
+[2024-03-01T03:15:52.126+0000] {standard_task_runner.py:60} INFO - Started process 142 to run task
+[2024-03-01T03:15:52.129+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'stock_analyzer', 'fetch_irctc_data', 'manual__2024-03-01T03:15:48.734477+00:00', '--job-id', '97', '--raw', '--subdir', 'DAGS_FOLDER/stock-analyzer.py', '--cfg-path', '/tmp/tmp7bn5xxvz']
+[2024-03-01T03:15:52.131+0000] {standard_task_runner.py:88} INFO - Job 97: Subtask fetch_irctc_data
+[2024-03-01T03:15:52.273+0000] {task_command.py:423} INFO - Running <TaskInstance: stock_analyzer.fetch_irctc_data manual__2024-03-01T03:15:48.734477+00:00 [running]> on host 0a26efe0197d
+[2024-03-01T03:15:52.500+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='root' AIRFLOW_CTX_DAG_ID='stock_analyzer' AIRFLOW_CTX_TASK_ID='fetch_irctc_data' AIRFLOW_CTX_EXECUTION_DATE='2024-03-01T03:15:48.734477+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-01T03:15:48.734477+00:00'
+[2024-03-01T03:15:53.078+0000] {logging_mixin.py:188} INFO - API response saved successfully to /opt/***/data/irctc_data.json
+[2024-03-01T03:15:53.080+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-01T03:15:53.087+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=stock_analyzer, task_id=fetch_irctc_data, execution_date=20240301T031548, start_date=20240301T031552, end_date=20240301T031553
+[2024-03-01T03:15:53.148+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-01T03:15:53.173+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

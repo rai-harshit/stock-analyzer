@@ -2,11 +2,18 @@
     "Meta Data": {
         "1. Information": "Daily Prices (open, high, low, close) and Volumes",
         "2. Symbol": "IRCTC.BSE",
-        "3. Last Refreshed": "2024-02-28",
+        "3. Last Refreshed": "2024-02-29",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2024-02-29": {
+            "1. open": "924.5500",
+            "2. high": "933.4500",
+            "3. low": "912.5500",
+            "4. close": "926.9000",
+            "5. volume": "217085"
+        },
         "2024-02-28": {
             "1. open": "952.3000",
             "2. high": "962.3000",
