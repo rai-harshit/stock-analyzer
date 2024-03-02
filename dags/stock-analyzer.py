@@ -2,8 +2,9 @@ import requests
 import json
 from datetime import datetime, timedelta
 from airflow.decorators import task, dag
-from airflow.providers.postgres.operators.postgres import PostgresOperator
+from airflow.hooks.postgres_hook import PostgresHook
 import csv
+from itertools import chain
 
 default_args = {
     "owner":"root",
@@ -53,25 +54,24 @@ def stock_analyzer():
     def insert_data_into_db(data_file_path, table_name):
         with open(data_file_path, "r") as csv_file:
             csv_reader = csv.reader(csv_file)
-            next(csv_reader)  # Skip header row (assuming the file has a header)
-            data_list = list(csv_reader)
+            next(csv_reader)
+            data = list(csv_reader)
+
+            # Prepare INSERT statement with placeholders
             insert_stmt = f"""
                 INSERT INTO {table_name} (date, open, high, low, close, volume) VALUES (%s, %s, %s, %s, %s, %s)
             """
-            values = [", ".join(["%s"] * len(data_list[0])) for _ in data_list]
-            full_stmt = insert_stmt + ", ".join(values)
-            print(full_stmt)
-            print([row for sublist in data_list for row in sublist])
-            # Execute the statement with prepared data
-            PostgresOperator(
-                task_id="insert_data",
-                postgres_conn_id="psql-aiven",
-                sql=full_stmt,
-                parameters=[row for sublist in data_list for row in sublist],
-                autocommit=True,
-            )
 
-    
+            # Efficiently unpack data using itertools.chain.from_iterable
+            rows = []
+            for i in range(0, len(data), 6):
+                rows.append(data[i : i + 6])
+
+            postgres_hook = PostgresHook(postgres_conn_id="psql-aiven")
+            for outer_list in data:
+                print(outer_list)
+                postgres_hook.run(insert_stmt, autocommit=True, parameters=outer_list)
+
 
     @task(task_id="fetch_bse_data")
     def fetch_bse_data(api_url, output_file):
