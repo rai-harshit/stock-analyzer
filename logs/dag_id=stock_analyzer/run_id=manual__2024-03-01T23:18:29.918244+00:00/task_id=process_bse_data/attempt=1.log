@@ -1,0 +1,21 @@
+[2024-03-01T23:18:35.404+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_analyzer.process_bse_data manual__2024-03-01T23:18:29.918244+00:00 [queued]>
+[2024-03-01T23:18:35.412+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_analyzer.process_bse_data manual__2024-03-01T23:18:29.918244+00:00 [queued]>
+[2024-03-01T23:18:35.413+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-01T23:18:35.439+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): process_bse_data> on 2024-03-01 23:18:29.918244+00:00
+[2024-03-01T23:18:35.449+0000] {standard_task_runner.py:60} INFO - Started process 128 to run task
+[2024-03-01T23:18:35.455+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'stock_analyzer', 'process_bse_data', 'manual__2024-03-01T23:18:29.918244+00:00', '--job-id', '120', '--raw', '--subdir', 'DAGS_FOLDER/stock-analyzer.py', '--cfg-path', '/tmp/tmpn6bwtc7o']
+[2024-03-01T23:18:35.458+0000] {standard_task_runner.py:88} INFO - Job 120: Subtask process_bse_data
+[2024-03-01T23:18:35.522+0000] {task_command.py:423} INFO - Running <TaskInstance: stock_analyzer.process_bse_data manual__2024-03-01T23:18:29.918244+00:00 [running]> on host 0a26efe0197d
+[2024-03-01T23:18:35.886+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='root' AIRFLOW_CTX_DAG_ID='stock_analyzer' AIRFLOW_CTX_TASK_ID='process_bse_data' AIRFLOW_CTX_EXECUTION_DATE='2024-03-01T23:18:29.918244+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-01T23:18:29.918244+00:00'
+[2024-03-01T23:18:35.888+0000] {logging_mixin.py:188} INFO - Reading /opt/***/data/bse_data.json for processing.
+[2024-03-01T23:18:36.076+0000] {logging_mixin.py:188} INFO -         date   open   high      low  close    volume
+0 2021-04-09  14.92  14.92  14.7112  14.79  108144.0
+1 2021-04-08  14.69  14.92  14.6608  14.85  127043.0
+2 2021-04-07  14.64  14.69  14.6400  14.69   56715.0
+3 2021-04-06  14.60  14.73  14.6000  14.71   26193.0
+4 2021-04-05  14.64  14.64  14.5600  14.62   92472.0
+[2024-03-01T23:18:36.124+0000] {logging_mixin.py:188} INFO - Data processed from /opt/***/data/bse_data.json and written to /opt/***/data/bse_processed.csv
+[2024-03-01T23:18:36.125+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-01T23:18:36.133+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=stock_analyzer, task_id=process_bse_data, execution_date=20240301T231829, start_date=20240301T231835, end_date=20240301T231836
+[2024-03-01T23:18:36.190+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-01T23:18:36.220+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

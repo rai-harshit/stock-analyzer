@@ -1,0 +1,13 @@
+[2024-03-02T00:59:12.566+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_analyzer.insert_bse_data_into_db manual__2024-03-02T00:59:02.330107+00:00 [queued]>
+[2024-03-02T00:59:12.574+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_analyzer.insert_bse_data_into_db manual__2024-03-02T00:59:02.330107+00:00 [queued]>
+[2024-03-02T00:59:12.574+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-02T00:59:12.600+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): insert_bse_data_into_db> on 2024-03-02 00:59:02.330107+00:00
+[2024-03-02T00:59:12.613+0000] {standard_task_runner.py:60} INFO - Started process 1644 to run task
+[2024-03-02T00:59:12.619+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'stock_analyzer', 'insert_bse_data_into_db', 'manual__2024-03-02T00:59:02.330107+00:00', '--job-id', '164', '--raw', '--subdir', 'DAGS_FOLDER/stock-analyzer.py', '--cfg-path', '/tmp/tmpa_p92aka']
+[2024-03-02T00:59:12.622+0000] {standard_task_runner.py:88} INFO - Job 164: Subtask insert_bse_data_into_db
+[2024-03-02T00:59:12.684+0000] {task_command.py:423} INFO - Running <TaskInstance: stock_analyzer.insert_bse_data_into_db manual__2024-03-02T00:59:02.330107+00:00 [running]> on host 0a26efe0197d
+[2024-03-02T00:59:12.796+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='root' AIRFLOW_CTX_DAG_ID='stock_analyzer' AIRFLOW_CTX_TASK_ID='insert_bse_data_into_db' AIRFLOW_CTX_EXECUTION_DATE='2024-03-02T00:59:02.330107+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-02T00:59:02.330107+00:00'
+[2024-03-02T00:59:12.831+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-02T00:59:12.839+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=stock_analyzer, task_id=insert_bse_data_into_db, execution_date=20240302T005902, start_date=20240302T005912, end_date=20240302T005912
+[2024-03-02T00:59:12.871+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-02T00:59:12.897+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

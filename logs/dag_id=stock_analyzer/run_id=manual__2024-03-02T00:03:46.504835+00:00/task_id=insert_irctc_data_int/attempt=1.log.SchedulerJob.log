@@ -1,0 +1,1 @@
+[2024-03-02T00:03:51.888+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: stock_analyzer.insert_irctc_data_int manual__2024-03-02T00:03:46.504835+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
