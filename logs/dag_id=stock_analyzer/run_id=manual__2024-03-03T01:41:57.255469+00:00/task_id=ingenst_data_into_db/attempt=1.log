@@ -1,0 +1,34 @@
+[2024-03-03T01:42:09.460+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_analyzer.ingenst_data_into_db manual__2024-03-03T01:41:57.255469+00:00 [queued]>
+[2024-03-03T01:42:09.470+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_analyzer.ingenst_data_into_db manual__2024-03-03T01:41:57.255469+00:00 [queued]>
+[2024-03-03T01:42:09.470+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-03T01:42:09.490+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): ingenst_data_into_db> on 2024-03-03 01:41:57.255469+00:00
+[2024-03-03T01:42:09.503+0000] {standard_task_runner.py:60} INFO - Started process 1429 to run task
+[2024-03-03T01:42:09.511+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'stock_analyzer', 'ingenst_data_into_db', 'manual__2024-03-03T01:41:57.255469+00:00', '--job-id', '256', '--raw', '--subdir', 'DAGS_FOLDER/stock-analyzer.py', '--cfg-path', '/tmp/tmpl7zesexd']
+[2024-03-03T01:42:09.514+0000] {standard_task_runner.py:88} INFO - Job 256: Subtask ingenst_data_into_db
+[2024-03-03T01:42:09.570+0000] {task_command.py:423} INFO - Running <TaskInstance: stock_analyzer.ingenst_data_into_db manual__2024-03-03T01:41:57.255469+00:00 [running]> on host 0a26efe0197d
+[2024-03-03T01:42:09.687+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='root' AIRFLOW_CTX_DAG_ID='stock_analyzer' AIRFLOW_CTX_TASK_ID='ingenst_data_into_db' AIRFLOW_CTX_EXECUTION_DATE='2024-03-03T01:41:57.255469+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-03T01:41:57.255469+00:00'
+[2024-03-03T01:42:09.693+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/stock-analyzer.py", line 87, in ingest_data_into_db
+    with open(data_file_path, "r") as csv_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/data/bse_processed.csv'
+[2024-03-03T01:42:09.722+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=stock_analyzer, task_id=ingenst_data_into_db, execution_date=20240303T014157, start_date=20240303T014209, end_date=20240303T014209
+[2024-03-03T01:42:09.748+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 256 for task ingenst_data_into_db ([Errno 2] No such file or directory: '/opt/airflow/data/bse_processed.csv'; 1429)
+[2024-03-03T01:42:09.812+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-03T01:42:09.831+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

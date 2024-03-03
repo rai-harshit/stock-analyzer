@@ -1,0 +1,42 @@
+[2024-03-03T01:45:37.855+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_analyzer.ingenst_data_into_db manual__2024-03-03T01:45:30.631713+00:00 [queued]>
+[2024-03-03T01:45:37.862+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_analyzer.ingenst_data_into_db manual__2024-03-03T01:45:30.631713+00:00 [queued]>
+[2024-03-03T01:45:37.863+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-03T01:45:37.879+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): ingenst_data_into_db> on 2024-03-03 01:45:30.631713+00:00
+[2024-03-03T01:45:37.886+0000] {standard_task_runner.py:60} INFO - Started process 1489 to run task
+[2024-03-03T01:45:37.889+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'stock_analyzer', 'ingenst_data_into_db', 'manual__2024-03-03T01:45:30.631713+00:00', '--job-id', '261', '--raw', '--subdir', 'DAGS_FOLDER/stock-analyzer.py', '--cfg-path', '/tmp/tmpa5aybqjy']
+[2024-03-03T01:45:37.891+0000] {standard_task_runner.py:88} INFO - Job 261: Subtask ingenst_data_into_db
+[2024-03-03T01:45:37.929+0000] {task_command.py:423} INFO - Running <TaskInstance: stock_analyzer.ingenst_data_into_db manual__2024-03-03T01:45:30.631713+00:00 [running]> on host 0a26efe0197d
+[2024-03-03T01:45:38.005+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='root' AIRFLOW_CTX_DAG_ID='stock_analyzer' AIRFLOW_CTX_TASK_ID='ingenst_data_into_db' AIRFLOW_CTX_EXECUTION_DATE='2024-03-03T01:45:30.631713+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-03T01:45:30.631713+00:00'
+[2024-03-03T01:45:38.014+0000] {logging_mixin.py:188} INFO - ['0', '0', '2024-03-01', '243.77', '246.95', '243.77', '246.82', '886409.0', 'NIFTYBEES.BSE', '0.01251179390408985']
+[2024-03-03T01:45:38.020+0000] {base.py:83} INFO - Using connection ID 'psql-aiven' for task execution.
+[2024-03-03T01:45:38.228+0000] {sql.py:457} INFO - Running statement: 
+                    INSERT INTO stock_data (date, open, high, low, close, volume, ticker, pct_change) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+                , parameters: ['0', '0', '2024-03-01', '243.77', '246.95', '243.77', '246.82', '886409.0', 'NIFTYBEES.BSE', '0.01251179390408985']
+[2024-03-03T01:45:38.229+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/stock-analyzer.py", line 106, in ingest_data_into_db
+    postgres_hook.run(insert_stmt, autocommit=True, parameters=outer_list)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/providers/common/sql/hooks/sql.py", line 404, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/providers/common/sql/hooks/sql.py", line 460, in _run_command
+    cur.execute(sql_statement, parameters)
+TypeError: not all arguments converted during string formatting
+[2024-03-03T01:45:38.242+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=stock_analyzer, task_id=ingenst_data_into_db, execution_date=20240303T014530, start_date=20240303T014537, end_date=20240303T014538
+[2024-03-03T01:45:38.257+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 261 for task ingenst_data_into_db (not all arguments converted during string formatting; 1489)
+[2024-03-03T01:45:38.304+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-03T01:45:38.332+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
