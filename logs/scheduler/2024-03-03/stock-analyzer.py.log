@@ -10794,3 +10794,437 @@ SyntaxError: invalid syntax
 [2024-03-03T04:13:31.722+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:13:31.722+0000] {dag.py:3047} INFO - Sync 1 DAGs
 [2024-03-03T04:13:31.738+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:13:31.738+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
 [2024-03-03T04:13:31.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.358 seconds
+[2024-03-03T04:14:02.578+0000] {processor.py:161} INFO - Started process (PID=602) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:14:02.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:14:02.580+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:14:02.580+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:14:02.826+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:14:02.845+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:14:02.844+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:14:02.860+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:14:02.860+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:14:02.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.306 seconds
+[2024-03-03T04:14:33.769+0000] {processor.py:161} INFO - Started process (PID=611) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:14:33.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:14:33.772+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:14:33.772+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:14:34.215+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:14:34.242+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:14:34.242+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:14:34.263+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:14:34.263+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:14:34.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.522 seconds
+[2024-03-03T04:15:04.953+0000] {processor.py:161} INFO - Started process (PID=621) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:15:04.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:15:04.956+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:15:04.956+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:15:05.373+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:15:05.400+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:15:05.399+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:15:05.431+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:15:05.431+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:15:05.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.504 seconds
+[2024-03-03T04:15:36.124+0000] {processor.py:161} INFO - Started process (PID=631) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:15:36.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:15:36.127+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:15:36.126+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:15:36.377+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:15:36.397+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:15:36.397+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:15:36.414+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:15:36.413+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:15:36.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.310 seconds
+[2024-03-03T04:16:07.361+0000] {processor.py:161} INFO - Started process (PID=641) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:16:07.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:16:07.364+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:16:07.364+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:16:07.642+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:16:07.663+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:16:07.663+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:16:07.682+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:16:07.682+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:16:07.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.343 seconds
+[2024-03-03T04:16:38.542+0000] {processor.py:161} INFO - Started process (PID=651) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:16:38.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:16:38.544+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:16:38.544+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:16:38.838+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:16:38.864+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:16:38.863+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:16:38.881+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:16:38.881+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:16:38.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.360 seconds
+[2024-03-03T04:17:09.718+0000] {processor.py:161} INFO - Started process (PID=660) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:17:09.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:17:09.721+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:17:09.720+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:17:09.977+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:17:09.996+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:17:09.995+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:17:10.011+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:17:10.011+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:17:10.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.317 seconds
+[2024-03-03T04:17:40.906+0000] {processor.py:161} INFO - Started process (PID=670) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:17:40.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:17:40.909+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:17:40.908+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:17:41.168+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:17:41.187+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:17:41.187+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:17:41.202+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:17:41.202+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:17:41.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.318 seconds
+[2024-03-03T04:18:12.074+0000] {processor.py:161} INFO - Started process (PID=679) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:18:12.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:18:12.077+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:18:12.076+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:18:12.417+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:18:12.436+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:18:12.436+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:18:12.452+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:18:12.452+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:18:12.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.398 seconds
+[2024-03-03T04:18:43.263+0000] {processor.py:161} INFO - Started process (PID=688) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:18:43.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:18:43.265+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:18:43.265+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:18:43.612+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:18:43.642+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:18:43.641+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:18:43.700+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:18:43.699+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:18:43.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.459 seconds
+[2024-03-03T04:19:14.448+0000] {processor.py:161} INFO - Started process (PID=698) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:19:14.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:19:14.451+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:19:14.450+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:19:14.695+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:19:14.714+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:19:14.714+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:19:14.729+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:19:14.728+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:19:14.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.301 seconds
+[2024-03-03T04:19:45.615+0000] {processor.py:161} INFO - Started process (PID=708) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:19:45.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:19:45.617+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:19:45.616+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:19:45.943+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:19:45.962+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:19:45.962+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:19:45.977+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:19:45.977+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:19:45.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.382 seconds
+[2024-03-03T04:20:16.810+0000] {processor.py:161} INFO - Started process (PID=718) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:20:16.811+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:20:16.812+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:20:16.812+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:20:17.165+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:20:17.184+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:20:17.184+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:20:17.200+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:20:17.200+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:20:17.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.412 seconds
+[2024-03-03T04:20:48.054+0000] {processor.py:161} INFO - Started process (PID=728) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:20:48.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:20:48.057+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:20:48.056+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:20:48.445+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:20:48.470+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:20:48.470+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:20:48.493+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:20:48.493+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:20:48.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.463 seconds
+[2024-03-03T04:21:19.231+0000] {processor.py:161} INFO - Started process (PID=738) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:21:19.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:21:19.234+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:21:19.234+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:21:19.602+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:21:19.630+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:21:19.630+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:21:19.651+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:21:19.651+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:21:19.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.445 seconds
+[2024-03-03T04:21:50.390+0000] {processor.py:161} INFO - Started process (PID=754) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:21:50.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:21:50.392+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:21:50.392+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:21:50.669+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:21:50.688+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:21:50.687+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:21:50.709+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:21:50.708+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:21:50.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.339 seconds
+[2024-03-03T04:22:21.566+0000] {processor.py:161} INFO - Started process (PID=763) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:22:21.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:22:21.569+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:22:21.568+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:22:21.813+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:22:21.832+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:22:21.831+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:22:21.847+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:22:21.847+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:22:21.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.302 seconds
+[2024-03-03T04:22:52.735+0000] {processor.py:161} INFO - Started process (PID=773) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:22:52.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:22:52.737+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:22:52.736+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:22:53.005+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:22:53.032+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:22:53.032+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:22:53.048+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:22:53.048+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:22:53.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.335 seconds
+[2024-03-03T04:23:23.913+0000] {processor.py:161} INFO - Started process (PID=782) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:23:23.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:23:23.915+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:23:23.915+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:23:24.159+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:23:24.179+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:23:24.179+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:23:24.198+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:23:24.198+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:23:24.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.305 seconds
+[2024-03-03T04:23:55.103+0000] {processor.py:161} INFO - Started process (PID=791) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:23:55.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:23:55.105+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:23:55.105+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:23:55.380+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:23:55.399+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:23:55.398+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:23:55.414+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:23:55.413+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:23:55.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.330 seconds
+[2024-03-03T04:24:26.291+0000] {processor.py:161} INFO - Started process (PID=801) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:24:26.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:24:26.294+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:24:26.293+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:24:26.545+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:24:26.564+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:24:26.564+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:24:26.579+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:24:26.579+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:24:26.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.308 seconds
+[2024-03-03T04:24:57.485+0000] {processor.py:161} INFO - Started process (PID=810) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:24:57.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:24:57.488+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:24:57.488+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:24:57.768+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:24:57.786+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:24:57.786+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:24:57.802+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:24:57.802+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:24:57.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.338 seconds
+[2024-03-03T04:25:28.640+0000] {processor.py:161} INFO - Started process (PID=819) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:25:28.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:25:28.643+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:25:28.642+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:25:28.973+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:25:28.993+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:25:28.993+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:25:29.009+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:25:29.009+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:25:29.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.391 seconds
+[2024-03-03T04:25:59.929+0000] {processor.py:161} INFO - Started process (PID=830) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:25:59.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:25:59.930+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:25:59.930+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:26:00.182+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:26:00.200+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:26:00.200+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:26:00.216+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:26:00.216+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:26:00.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.310 seconds
+[2024-03-03T04:26:31.118+0000] {processor.py:161} INFO - Started process (PID=840) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:26:31.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:26:31.121+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:26:31.120+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:26:31.368+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:26:31.387+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:26:31.387+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:26:31.402+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:26:31.402+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:26:31.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.305 seconds
+[2024-03-03T04:27:02.331+0000] {processor.py:161} INFO - Started process (PID=850) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:27:02.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:27:02.334+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:27:02.333+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:27:02.613+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:27:02.631+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:27:02.631+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:27:02.646+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:27:02.646+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:27:02.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.333 seconds
+[2024-03-03T04:27:33.547+0000] {processor.py:161} INFO - Started process (PID=859) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:27:33.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:27:33.550+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:27:33.549+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:27:33.802+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:27:33.823+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:27:33.823+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:27:33.844+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:27:33.844+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:27:33.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.316 seconds
+[2024-03-03T04:28:04.761+0000] {processor.py:161} INFO - Started process (PID=868) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:28:04.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:28:04.764+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:28:04.763+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:28:05.017+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:28:05.036+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:28:05.036+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:28:05.052+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:28:05.051+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:28:05.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.310 seconds
+[2024-03-03T04:28:35.950+0000] {processor.py:161} INFO - Started process (PID=877) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:28:35.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:28:35.952+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:28:35.952+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:28:36.343+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:28:36.362+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:28:36.362+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:28:36.378+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:28:36.378+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:28:36.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.449 seconds
+[2024-03-03T04:29:07.154+0000] {processor.py:161} INFO - Started process (PID=885) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:29:07.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:29:07.157+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:29:07.157+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:29:07.720+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:29:07.754+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:29:07.754+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:29:07.777+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:29:07.777+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:29:07.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.683 seconds
+[2024-03-03T04:29:38.358+0000] {processor.py:161} INFO - Started process (PID=894) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:29:38.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:29:38.365+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:29:38.363+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:29:38.893+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:29:38.920+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:29:38.919+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:29:38.943+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:29:38.943+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:29:38.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.610 seconds
+[2024-03-03T04:30:09.519+0000] {processor.py:161} INFO - Started process (PID=904) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:30:09.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:30:09.521+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:30:09.521+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:30:09.891+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:30:09.910+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:30:09.910+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:30:09.926+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:30:09.925+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:30:09.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.426 seconds
+[2024-03-03T04:30:40.709+0000] {processor.py:161} INFO - Started process (PID=913) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:30:40.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:30:40.713+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:30:40.712+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:30:41.145+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:30:41.163+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:30:41.163+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:30:41.187+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:30:41.187+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:30:41.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.499 seconds
+[2024-03-03T04:31:11.882+0000] {processor.py:161} INFO - Started process (PID=921) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:31:11.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:31:11.884+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:31:11.884+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:31:12.132+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:31:12.151+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:31:12.151+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:31:12.167+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:31:12.167+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:31:12.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.305 seconds
+[2024-03-03T04:31:43.122+0000] {processor.py:161} INFO - Started process (PID=930) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:31:43.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:31:43.124+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:31:43.124+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:31:43.387+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:31:43.417+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:31:43.416+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:31:43.441+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:31:43.441+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:31:43.464+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.344 seconds
+[2024-03-03T04:32:14.298+0000] {processor.py:161} INFO - Started process (PID=939) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:32:14.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:32:14.300+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:32:14.300+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:32:14.601+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:32:14.629+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:32:14.628+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:32:14.654+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:32:14.654+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:32:14.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.378 seconds
+[2024-03-03T04:32:45.482+0000] {processor.py:161} INFO - Started process (PID=948) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:32:45.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:32:45.484+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:32:45.484+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:32:45.868+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:32:45.904+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:32:45.903+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:32:45.928+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:32:45.928+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:32:45.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.469 seconds
+[2024-03-03T04:33:16.691+0000] {processor.py:161} INFO - Started process (PID=957) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:33:16.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:33:16.693+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:33:16.693+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:33:17.075+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:33:17.105+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:33:17.104+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:33:17.130+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:33:17.130+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:33:17.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.479 seconds
+[2024-03-03T04:33:47.905+0000] {processor.py:161} INFO - Started process (PID=966) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:33:47.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:33:47.908+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:33:47.907+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:33:48.152+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:33:48.172+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:33:48.171+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:33:48.187+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:33:48.187+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:33:48.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.301 seconds
+[2024-03-03T04:34:19.103+0000] {processor.py:161} INFO - Started process (PID=975) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:34:19.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:34:19.105+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:34:19.105+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:34:19.381+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:34:19.412+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:34:19.412+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:34:19.430+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:34:19.430+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:34:19.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.349 seconds
+[2024-03-03T04:34:50.280+0000] {processor.py:161} INFO - Started process (PID=984) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:34:50.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:34:50.283+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:34:50.283+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:34:50.561+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:34:50.589+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:34:50.589+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:34:50.614+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:34:50.614+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:34:50.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.359 seconds
+[2024-03-03T04:35:21.465+0000] {processor.py:161} INFO - Started process (PID=994) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:35:21.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:35:21.467+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:35:21.467+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:35:21.714+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:35:21.732+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:35:21.732+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:35:21.748+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:35:21.748+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:35:21.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.304 seconds
+[2024-03-03T04:35:52.667+0000] {processor.py:161} INFO - Started process (PID=1004) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:35:52.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:35:52.669+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:35:52.668+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:35:53.005+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:35:53.047+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:35:53.047+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:35:53.076+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:35:53.075+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:35:53.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.444 seconds
+[2024-03-03T04:36:23.859+0000] {processor.py:161} INFO - Started process (PID=1019) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:36:23.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:36:23.862+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:36:23.861+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:36:24.360+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:36:24.392+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:36:24.391+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:36:24.433+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:36:24.433+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:36:24.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.603 seconds
+[2024-03-03T04:36:55.027+0000] {processor.py:161} INFO - Started process (PID=1029) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:36:55.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:36:55.030+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:36:55.030+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:36:55.397+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:36:55.423+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:36:55.423+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:36:55.455+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:36:55.455+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:36:55.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.462 seconds
+[2024-03-03T04:37:26.197+0000] {processor.py:161} INFO - Started process (PID=1039) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:37:26.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:37:26.202+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:37:26.202+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:37:26.449+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:37:26.470+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:37:26.469+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:37:26.486+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:37:26.485+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:37:26.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.310 seconds
+[2024-03-03T04:37:57.360+0000] {processor.py:161} INFO - Started process (PID=1049) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:37:57.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:37:57.362+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:37:57.362+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:37:57.600+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:37:57.618+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:37:57.618+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:37:57.632+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:37:57.632+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:37:57.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.292 seconds
+[2024-03-03T04:38:28.542+0000] {processor.py:161} INFO - Started process (PID=1058) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:38:28.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:38:28.544+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:38:28.544+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:38:28.790+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:38:28.809+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:38:28.809+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:38:28.825+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:38:28.825+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:38:28.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.303 seconds
+[2024-03-03T04:38:59.714+0000] {processor.py:161} INFO - Started process (PID=1067) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:38:59.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:38:59.716+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:38:59.716+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:38:59.963+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:38:59.983+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:38:59.983+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:38:59.999+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:38:59.998+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:39:00.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.305 seconds
+[2024-03-03T04:39:30.907+0000] {processor.py:161} INFO - Started process (PID=1076) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:39:30.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:39:30.909+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:39:30.909+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:39:31.209+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:39:31.235+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:39:31.234+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:39:31.259+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:39:31.259+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:39:31.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.376 seconds
+[2024-03-03T04:40:02.090+0000] {processor.py:161} INFO - Started process (PID=1084) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:40:02.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:40:02.092+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:40:02.092+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:40:02.368+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:40:02.386+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:40:02.386+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:40:02.401+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:40:02.401+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:40:02.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.334 seconds
+[2024-03-03T04:40:33.249+0000] {processor.py:161} INFO - Started process (PID=1093) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:40:33.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:40:33.251+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:40:33.251+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:40:33.490+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:40:33.508+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:40:33.508+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:40:33.531+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:40:33.531+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:40:33.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.308 seconds
+[2024-03-03T04:41:04.430+0000] {processor.py:161} INFO - Started process (PID=1102) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:41:04.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:41:04.433+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:41:04.433+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:41:04.794+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:41:04.813+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:41:04.812+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:41:04.832+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:41:04.832+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:41:04.849+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.421 seconds
+[2024-03-03T04:41:35.680+0000] {processor.py:161} INFO - Started process (PID=1112) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:41:35.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:41:35.684+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:41:35.683+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:41:36.017+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:41:36.036+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:41:36.036+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:41:36.050+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:41:36.050+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:41:36.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.391 seconds
+[2024-03-03T04:42:06.857+0000] {processor.py:161} INFO - Started process (PID=1122) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:42:06.858+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:42:06.859+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:42:06.859+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:42:07.182+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:42:07.270+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:42:07.269+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:42:07.298+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:42:07.298+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:42:07.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.472 seconds
+[2024-03-03T04:42:38.048+0000] {processor.py:161} INFO - Started process (PID=1131) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:42:38.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:42:38.052+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:42:38.051+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:42:38.377+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:42:38.395+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:42:38.394+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:42:38.411+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:42:38.411+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:42:38.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.384 seconds
+[2024-03-03T04:43:09.284+0000] {processor.py:161} INFO - Started process (PID=1141) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:43:09.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T04:43:09.287+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:43:09.287+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:43:09.666+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T04:43:09.684+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:43:09.684+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T04:43:09.699+0000] {logging_mixin.py:188} INFO - [2024-03-03T04:43:09.699+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T04:43:09.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.441 seconds
+[2024-03-03T22:46:48.712+0000] {processor.py:161} INFO - Started process (PID=23) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:46:48.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T22:46:48.726+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:46:48.724+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:46:51.811+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:46:52.023+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:46:52.023+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T22:46:52.066+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:46:52.066+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T22:46:52.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 3.399 seconds
+[2024-03-03T22:47:22.931+0000] {processor.py:161} INFO - Started process (PID=40) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:47:22.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T22:47:22.934+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:47:22.933+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:47:23.527+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:47:23.547+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:47:23.547+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T22:47:23.566+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:47:23.566+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T22:47:23.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.657 seconds
+[2024-03-03T22:47:54.164+0000] {processor.py:161} INFO - Started process (PID=49) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:47:54.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T22:47:54.167+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:47:54.166+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:47:54.509+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:47:54.537+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:47:54.537+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T22:47:54.563+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:47:54.563+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T22:47:54.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.448 seconds
+[2024-03-03T22:48:25.357+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:48:25.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T22:48:25.359+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:48:25.359+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:48:25.621+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:48:25.643+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:48:25.642+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T22:48:25.659+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:48:25.658+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T22:48:25.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.323 seconds
+[2024-03-03T22:48:56.586+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:48:56.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock-analyzer.py for tasks to queue
+[2024-03-03T22:48:56.588+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:48:56.588+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:48:56.845+0000] {processor.py:840} INFO - DAG(s) 'stock_analyzer' retrieved from /opt/airflow/dags/stock-analyzer.py
+[2024-03-03T22:48:56.865+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:48:56.865+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-03T22:48:56.881+0000] {logging_mixin.py:188} INFO - [2024-03-03T22:48:56.881+0000] {dag.py:3834} INFO - Setting next_dagrun for stock_analyzer to 2024-03-03 00:00:00+00:00, run_after=2024-03-04 00:00:00+00:00
+[2024-03-03T22:48:56.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock-analyzer.py took 0.315 seconds
