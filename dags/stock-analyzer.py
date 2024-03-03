@@ -72,14 +72,14 @@ def stock_analyzer():
             else:
                 df_delta = pd.read_csv(delta_file)
                 max_date_delta = df_delta['date'].max()
-                df_new_delta = df_stage[df_stage['date_column'] > max_date_delta]
+                df_new_delta = df_stage[df_stage['date'] > max_date_delta]
             df_new_delta.to_csv(delta_file, index=False)
 
     @task(task_id="calculate_derived_fields")
     def calculate_derived_fields(stock_symbols, delta_dir, ingestion_dir):
         for stock_symbol in stock_symbols:
             df_delta = pd.read_csv(f"{delta_dir}/{stock_symbol}.csv")
-            df_delta["pct_change"] = (df_delta["close"] - df_delta["open"])/df_delta["open"]
+            df_delta["pct_change"] = (df_delta["close"] - df_delta["open"]) * 100 / df_delta["open"]
             df_delta.to_csv(f"{ingestion_dir}/{stock_symbol}.csv", index=False)
 
     @task(task_id="ingenst_data_into_db")
@@ -105,7 +105,7 @@ def stock_analyzer():
                     postgres_hook.run(insert_stmt, autocommit=True, parameters=outer_list)
 
 
-    stock_symbols = ["NIFTYBEES.BSE","IRCTC.BSE"]
+    stock_symbols = ["NIFTYBEES.BSE","IRCTC.BSE","LICI.BSE"]
     root_dir = "/opt/airflow/data"
     raw_dir = f"{root_dir}/raw"
     stage_dir = f"{root_dir}/stage"

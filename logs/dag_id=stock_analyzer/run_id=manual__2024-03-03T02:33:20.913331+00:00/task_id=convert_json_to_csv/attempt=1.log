@@ -1,0 +1,17 @@
+[2024-03-03T02:33:25.515+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_analyzer.convert_json_to_csv manual__2024-03-03T02:33:20.913331+00:00 [queued]>
+[2024-03-03T02:33:25.522+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_analyzer.convert_json_to_csv manual__2024-03-03T02:33:20.913331+00:00 [queued]>
+[2024-03-03T02:33:25.522+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-03T02:33:25.538+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): convert_json_to_csv> on 2024-03-03 02:33:20.913331+00:00
+[2024-03-03T02:33:25.547+0000] {standard_task_runner.py:60} INFO - Started process 2190 to run task
+[2024-03-03T02:33:25.550+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'stock_analyzer', 'convert_json_to_csv', 'manual__2024-03-03T02:33:20.913331+00:00', '--job-id', '276', '--raw', '--subdir', 'DAGS_FOLDER/stock-analyzer.py', '--cfg-path', '/tmp/tmpjpx5plcu']
+[2024-03-03T02:33:25.553+0000] {standard_task_runner.py:88} INFO - Job 276: Subtask convert_json_to_csv
+[2024-03-03T02:33:25.633+0000] {task_command.py:423} INFO - Running <TaskInstance: stock_analyzer.convert_json_to_csv manual__2024-03-03T02:33:20.913331+00:00 [running]> on host 0a26efe0197d
+[2024-03-03T02:33:25.878+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='root' AIRFLOW_CTX_DAG_ID='stock_analyzer' AIRFLOW_CTX_TASK_ID='convert_json_to_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-03-03T02:33:20.913331+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-03T02:33:20.913331+00:00'
+[2024-03-03T02:33:25.880+0000] {logging_mixin.py:188} INFO - Reading /opt/***/data/raw/NIFTYBEES.BSE.json for processing.
+[2024-03-03T02:33:26.123+0000] {logging_mixin.py:188} INFO - Data processed from /opt/***/data/raw/NIFTYBEES.BSE.json and written to /opt/***/data/stage/NIFTYBEES.BSE.csv
+[2024-03-03T02:33:26.123+0000] {logging_mixin.py:188} INFO - Reading /opt/***/data/raw/IRCTC.BSE.json for processing.
+[2024-03-03T02:33:26.150+0000] {logging_mixin.py:188} INFO - Data processed from /opt/***/data/raw/IRCTC.BSE.json and written to /opt/***/data/stage/IRCTC.BSE.csv
+[2024-03-03T02:33:26.151+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-03T02:33:26.159+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=stock_analyzer, task_id=convert_json_to_csv, execution_date=20240303T023320, start_date=20240303T023325, end_date=20240303T023326
+[2024-03-03T02:33:26.210+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-03T02:33:26.236+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

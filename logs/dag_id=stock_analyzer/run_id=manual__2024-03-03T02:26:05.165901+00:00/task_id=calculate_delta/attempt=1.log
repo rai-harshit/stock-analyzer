@@ -1,0 +1,51 @@
+[2024-03-03T02:26:14.488+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_analyzer.calculate_delta manual__2024-03-03T02:26:05.165901+00:00 [queued]>
+[2024-03-03T02:26:14.494+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_analyzer.calculate_delta manual__2024-03-03T02:26:05.165901+00:00 [queued]>
+[2024-03-03T02:26:14.495+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-03-03T02:26:14.511+0000] {taskinstance.py:2214} INFO - Executing <Task(_PythonDecoratedOperator): calculate_delta> on 2024-03-03 02:26:05.165901+00:00
+[2024-03-03T02:26:14.519+0000] {standard_task_runner.py:60} INFO - Started process 2068 to run task
+[2024-03-03T02:26:14.522+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'stock_analyzer', 'calculate_delta', 'manual__2024-03-03T02:26:05.165901+00:00', '--job-id', '269', '--raw', '--subdir', 'DAGS_FOLDER/stock-analyzer.py', '--cfg-path', '/tmp/tmpuqz_8z3w']
+[2024-03-03T02:26:14.524+0000] {standard_task_runner.py:88} INFO - Job 269: Subtask calculate_delta
+[2024-03-03T02:26:14.578+0000] {task_command.py:423} INFO - Running <TaskInstance: stock_analyzer.calculate_delta manual__2024-03-03T02:26:05.165901+00:00 [running]> on host 0a26efe0197d
+[2024-03-03T02:26:14.694+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='root' AIRFLOW_CTX_DAG_ID='stock_analyzer' AIRFLOW_CTX_TASK_ID='calculate_delta' AIRFLOW_CTX_EXECUTION_DATE='2024-03-03T02:26:05.165901+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-03T02:26:05.165901+00:00'
+[2024-03-03T02:26:14.732+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'date_column'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/stock-analyzer.py", line 75, in calculate_delta
+    df_new_delta = df_stage[df_stage['date_column'] > max_date_delta]
+                            ~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.11/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'date_column'
+[2024-03-03T02:26:14.777+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=stock_analyzer, task_id=calculate_delta, execution_date=20240303T022605, start_date=20240303T022614, end_date=20240303T022614
+[2024-03-03T02:26:14.794+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 269 for task calculate_delta ('date_column'; 2068)
+[2024-03-03T02:26:14.820+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-03T02:26:14.841+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
